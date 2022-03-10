@@ -41,4 +41,8 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your name and email here
+* Miguel López (lop18028@byui.edu) :
+* Ryan Weinheimer (ryanweinheimer@gmail.com) :
+* Diana Guerra (diana.1609@hotmail.com) :
+* Eduardo Mosquera Galarza (mos21008@byui.edu) : 
+* Chioneso Chatayika(cchatayika@outlook.com) : 
