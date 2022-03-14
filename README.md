@@ -34,16 +34,9 @@ root                    ( project root folder )
 
 ## Authors
 ---
-<<<<<<< HEAD
 * Miguel López ( lop18028@byui.edu ) : Coded __main__.py, casting classes( Actor, Cast, Player_one_score, Player_one, Player_two and Player_two_scores classes ) and updated Control_actors_action, Draw_actors_action and Handle_collisions_action from scripting classes. Oversaw the review of the project as a whole.
 * Ryan Weinheimer ( ryanweinheimer@gmail.com ) : Coded Action, Script, Move_actors_action classes and Video_service class from services classes. Participated by giving ideas to solve problems encountered.
 * Diana Guerra ( diana.1609@hotmail.com ) : Created the team repository, created README file. Coded constants.py file, directing classes( Director class ), Keyboard_service class from services classes and participated by giving ideas to solve problems encountered.
 * Eduardo Mosquera Galarza ( mos21008@byui.edu ) : Coded Color class.
 * Chioneso Chatayika( cchatayika@outlook.com ) : Coded Point class.
-=======
-* Miguel López (lop18028@byui.edu) :
-* Ryan Weinheimer (ryanweinheimer@gmail.com) :
-* Diana Guerra (diana.1609@hotmail.com) :
-* Eduardo Mosquera Galarza (mos21008@byui.edu) : 
-* Chioneso Chatayika(cchatayika@outlook.com) : 
->>>>>>> c7f300a93cbf078acd0950165e4edbe0a74e4f55
+
