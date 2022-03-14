@@ -15,6 +15,10 @@ class MoveActorsAction( Action ):
             script ( Script ): The script of Actions in the game.
         """
         actors = cast.get_all_actors()
+        player_one = cast.get_first_actor( "player_one" )
+        player_two = cast.get_first_actor( "player_two" )
 
         for actor in actors:
+            if actor == player_one or player_two:
+                continue
             actor.move_next()
