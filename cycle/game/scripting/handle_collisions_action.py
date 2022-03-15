@@ -75,9 +75,13 @@ class HandleCollisionsAction( Action ):
         """
         if self._is_game_over:
             player_one = cast.get_first_actor( "player_one" )
+            player_one_tail = cast.get_first_actor( "player_one_tail" )
             player_two = cast.get_first_actor( "player_two" )
+            player_two_tail = cast.get_first_actor( "player_two_tail" )
             player_one.set_color( constants.WHITE )
+            player_one_tail.set_color( constants.WHITE )
             player_two.set_color( constants.WHITE )
+            player_two_tail.set_color( constants.WHITE )
             segments = player_one.get_segments()
             segments2 = player_two.get_segments()
 
