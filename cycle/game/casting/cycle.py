@@ -49,25 +49,6 @@ class Cycle( Actor ):
         """
         return self._segments[0]
 
-    def grow_tail( self, number_of_segments ):
-        """Updates the segments for the player.
-        
-        Args:
-            number_of_segments ( int ): The quantity of segments to add.
-        """
-        for i in range( number_of_segments ):
-            tail = self._segments[ -1 ]
-            velocity = tail.get_velocity()
-            offset = velocity.reverse()
-            position = tail.get_position().add( offset )
-            
-            segment = Actor()
-            segment.set_position( position )
-            segment.set_velocity( velocity )
-            segment.set_text( "#" )
-            segment.set_color( self._color )
-            self._segments.append( segment )
-
     def turn_head( self, velocity ):
         """Move the player_one's head.
         
